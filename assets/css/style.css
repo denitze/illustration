@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    color:#202020;
+    margin:0 auto;
+}
+
+header ul {
+    list-style: none;
+    margin-left: 66%;
+    height:10vh;
+}
+
+header li {
+    display:inline;
+    text-transform: uppercase;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    padding-left:4rem;
+}
+
+.first-part {
+    position: relative;
+    width:100%;
+    margin:0 auto;
+    height:70vh;
+}
+
+.first-part article {
+    position: absolute;
+} 
+
+.left {
+    display:inline-block;
+    left:0;
+    width: 60vw;
+    bottom: 20vw;
+    margin-left:10rem;
+    /* margin:10rem auto; */
+}
+
+.left p {
+    margin-right: 55vh;
+}
+
+.left h2, .right h2 {
+font-size: 3.2rem;
+margin-right: 55vh;
+font-weight:300;
+}
+
+.left a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border:solid 2px #F5FBFE;
+    padding:10px;
+    margin-right:10px;
+    border-radius:5px;
+}
+
+#black {
+    color:#F5FBFE;
+    background-color: black;
+}
+
+.picture-right {
+    display:inline-block;
+    right:0;
+    width:35vw; 
+}
+
+.picture-right img {
+width:31vw;
+}
+
+.picture-left {
+    display:inline-block;
+    left:0;
+    width:35vw; 
+    margin-left:10rem;
+}
+
+.picture-left img {
+width:31vw;
+}
+
+.right {
+    display:inline-block;
+    right: -14vh;
+    width: 50vw;
+    bottom: 15vw;
+    margin: 1rem 9rem;
+}
+
+.right p {
+    margin-right: 30vh;
+}
+
+.applications{
+    width:100%;
+    text-align: center;
+}
+
+.center {
+    font-size: 3.2rem;
+    font-weight:300;
+}
+.applications p {
+    margin: 3rem 38rem;
+}
+
+.three-pictures {
+    width:100%;
+    text-align: center;
+    margin-bottom:6rem;
+}
+
+.three-pictures img {
+    width:22%;
+    padding-right:5rem;
+}
+
+.six-pictures {
+    width:100%;
+    text-align: center;
+    margin-bottom:6rem;
+}
+
+.six-pictures img {
+    width:30%;
+    padding:5rem;
+}
+
+div {
+    display: inline-block;
+    background: #81cfe927;
+    border-radius: 20px;;
+    padding: 2rem;
+}
+main ul {
+    list-style: none;
+    padding:0;
+    margin-bottom:3rem;
+}
+
+main li {
+    text-align: center;
+}
+h3 {
+    font-weight: 100;
+}
+h4 {
+    font-size: 2.5rem;
+
+}
+
+h5 {
+   font-weight: 100;
+   font-size: 1.2rem;
+}
+
+div a {
+    text-decoration: none;
+    background: #24bff2;
+    border-radius:10px;
+    color: black;
+    padding:1rem 3rem;
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+h6 {
+    font-size: 3.2rem;
+font-weight:300;
+}
+
+footer p {
+    color: grey;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:nth-of-type(2)::before {
+    content:". ";
+    color: #3b5998;
+    font-size: 2rem;
+}
+
+footer a:nth-of-type(3)::before {
+    content:". ";
+    color: #fcaf45;
+    font-size: 2rem;
+}
+
+footer a:nth-of-type(4)::before {
+    content:". ";
+    color: #55acee;
+    font-size: 2rem;
+}
+
+footer a:nth-of-type(5)::before {
+    content:". ";
+    color: #c4302b;
+    font-size: 2rem;
+}
+
+
+/* Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b */
